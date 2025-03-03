@@ -426,7 +426,7 @@ cursor: pointer;
 }
 
 .video-img{
-    width: 70%;
+    width: 60%;
     height: 500px;
     background-image: url("/public/Mask\ group\ \(1\).png");
     background-repeat: no-repeat;
@@ -443,4 +443,127 @@ cursor: pointer;
     width: 133px;
 height: 96px;
 background-image: url(../public/Group\ 112.png);
+}
+.vid{
+    display: flex;justify-content: center;
+    align-items: center;
+}
+.texts{width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    background: rgb(245, 249, 250);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.question-text {
+    flex: 1;
+}
+
+.question-text h2 {
+    color: #008000;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.question-text p {
+    font-size: 16px;
+    color: #333;
+}
+
+.form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #F2F2F2;
+    font-size: 16px;
+}
+
+.submit-button {
+    background-color: #008000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #006400;
+}
+
+.footer {
+    background-color: #008000;
+    color: white;
+    padding: 30px 60px;
+    border-radius: 16px 16px 0 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-menu h3,
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.social-icons img {
+    width: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-policy {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-policy a {
+    color: white;
+    text-decoration: underline;
 }

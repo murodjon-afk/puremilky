@@ -3,6 +3,9 @@ import Header from "../components/header";
 import SecondText from "../components/second"; 
 import MilkyCard from "../components/card"; 
 import PromoCard from "../components/promocard"; 
+import QuestionForm from "../components/QuesionForm";
+import Footer from "../components/Footer";
+
 
 
 
@@ -72,7 +75,17 @@ const About = () => {
           <button className="Next">Подробное</button>
         </div>
 
-        <div className="video-img"><div className="youtube"></div></div>
+       <div className="vid">
+       <div className="video-img"><div className="youtube"></div></div>
+       <div className="texts">
+       <h1>Группа компаний «Siyob»</h1><br />
+       <p>Группа компаний «Siyob» - многопрофильный холдинг по производству и реализации товаров народного потребления, на протяжении 10 лет на рынке Узбекистана. Одной из компаний в составе холдинга стала компания «PureMilky Works»</p><br />
+       <p>«PureMilky Works» самый крупный молочный завод в Узбекистане. Специализируется на производстве натуральной молочной и масложировой продукции. Основанное в 2013 году, предприятие имеет в составе, молочный и масложировой заводы.</p>
+       </div>
+       </div>
+
+       <QuestionForm />
+       <Footer />  
       </div>
     </>
   );
